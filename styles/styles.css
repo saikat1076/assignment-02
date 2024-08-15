@@ -70,7 +70,7 @@ header{
     border-radius: 40px;
 }
 .banner{
-    margin: 100px 80px;
+    margin: 170px 130px 100px 100px;
     justify-content: space-between;
     gap: 100px;
 }
@@ -82,8 +82,9 @@ header{
     font-weight: 900;
 
 }
-.bannerdes{
-    /* margin-top: 20px; */
+.banner-img{
+    width: 340px;
+    height: 500px;
 }
 .card-1{
     align-items: center;
@@ -95,7 +96,7 @@ header{
     border-radius: 10px;
     background: rgba(48, 48, 48, 0.54);
     padding-left: 10px;
-    margin: -130px -10px;
+    margin: -130px -15px;
 }
 .card-colour{
     height: 30px;
@@ -115,16 +116,17 @@ header{
     border-radius: 10px;
     background: rgba(48, 48, 48, 0.54);
     padding: 10px;
-    margin: -370px 150px -370px 250px;
+    margin: -370px 0px -370px 180px;
 }
 .section-1{
-    margin: 150px 200px 100px 170px;
+    margin: 170px 100px 100px 180px;
     padding-top: 50px;
 
 }
 .section-title{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     align-items: center;
 }
 .section-title>p{
@@ -135,10 +137,13 @@ header{
 .sec-1{
     /* width: 100%; */
     display: flex;
+    flex-direction: row;
     text-align: center;
     gap: 50px;
+    padding-right: 0;
 }
 .sectionimg{
+    border: 1px solid white;
     margin-top: 50px;
     height: 200px;
     width: 200px;
@@ -153,7 +158,7 @@ header{
 .section-2{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
-    margin: 100px 80px;
+    margin: 170px 200px 100px 170px;
     display: flex;
     justify-content: space-between;
 }
@@ -215,7 +220,7 @@ header{
     column-gap: 16px;
 }
 .bmi{
-    margin: 30px 80px;
+   margin: 30px 50px;
     background-color: rgba(255, 255, 255, 0.1);
     justify-content: space-between;
     border-radius: 18px;
@@ -295,6 +300,50 @@ select>option{
 }
 .bmicheck>h2{
     margin-bottom: 10px;
+}
+footer{
+    margin: 30px 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+}
+.footersection{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.footertitle{
+    width: 30%;
+    padding: 130px 2px;
+}
+.footertitle>h1{
+    color: rgb(230, 83, 60);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    position: static;
+}
+.Contactinfo>h2{
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.Contactlist{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.Contactlist>a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+hr{
+    margin: 0 70px;
+}
+.copyright{
+    text-align: center;
+    padding: 20px 0;
 }
 
 @media screen and (max-width:576px){
@@ -408,6 +457,24 @@ select>option{
     .bmicheck{
         margin: 20px;
     }
+    .footersection{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer{
+        margin: 10px 0px;
+    }
+    .footertitle{
+        width: 80%;
+        padding: 10px;
+    }
+    .Contactinfo>h2{
+        padding: 20px 10px;
+        margin: 0;
+    }
+    .Contactlist{
+        padding-left: 10px;
+    }
     
 }
 
@@ -423,6 +490,7 @@ select>option{
         }
         .banner{
             justify-content: space-between;
+            margin: 130px 80px;
         }
         .banner-name{
             font-size: 50px;
@@ -430,9 +498,6 @@ select>option{
         }
         .banner-title{
             width: 40%;
-        }
-        .card-2{
-            display: none;
         }
         .section-2{
             margin: 0;

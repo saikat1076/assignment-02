@@ -75,7 +75,7 @@ header{
     gap: 100px;
 }
 .banner-title{
-    width: 40%;
+    width: 50%;
 }
 .banner-name{
     font-size: 70px;
@@ -311,6 +311,66 @@ select>option{
 .bmicheck>h2{
     margin-bottom: 10px;
 }
+.section-5{
+    margin: 30px 150px 80px 170px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+
+}
+.choose1{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+.navber2{
+    border: 1px solid rgb(230, 83, 60);
+    border-radius: 18px;
+    width: 165px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.listitem{
+    border: 1px solid rgb(230, 83, 60);
+    background-color:  rgb(230, 83, 60);
+    color: rgb(230, 83, 60);
+    width: 85px;
+    height: 30px;
+    border-radius: 18px;
+    align-items: center;
+}
+.price-crad{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 280px;
+    height: 400px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 3px rgb(230, 83, 60);
+}
+.price-card2{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 280px;
+    height: 450px;
+    padding: 20px;
+    margin: 0px 15px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 3px rgb(50, 193, 126);
+
+}
+.white-2>span{
+    font-size: 15px;
+    color: wheat;
+    padding-left: 100px;
+}
+
+.price-crad>h3, h1, p{
+    padding: 10px;
+}
+hr{
+    margin: 5px 20px;
+}
 footer{
     margin: 30px 50px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -348,14 +408,14 @@ footer{
     font-size: 18px;
     font-weight: 400;
 }
-hr{
+.hr{
     margin: 0 70px;
 }
 .copyright{
     text-align: center;
     padding: 20px 0;
 }
-
+/* For mobile  */
 @media screen and (max-width:576px){
     .unlist{
         border: none;
@@ -475,9 +535,30 @@ hr{
     .Contactlist{
         padding-left: 10px;
     }
+    .section-5{
+        margin: 0;
+        padding: 0;
+    }
+    .purcase-course{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .price-crad{
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding: 25px;
+        width: 80%;
+    }
+    .price-card2{
+        margin: 0;
+        margin-bottom: 30px;
+        width: 80%;
+        padding: 25px;
+    }
     
 }
-
+/* for samall laptop/desktop (width-1024x) */
 @media screen and (max-width:1199.98px) and (min-width:992px) {
         .sec-1{
             gap: 15px;
@@ -497,7 +578,7 @@ hr{
             font-weight: 700;
         }
         .banner-title{
-            width: 40%;
+            width: 50%;
         }
         .section-2{
             margin: 0;

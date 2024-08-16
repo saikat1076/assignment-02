@@ -39,6 +39,7 @@ header{
 }
 .band-name{
     text-align: left;
+    font-size: 38px;
 }
 .nav-items{
     list-style: none;
@@ -46,28 +47,32 @@ header{
 .nav-items>a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 0.7rem;
+    font-size: 12px;
     font-weight: 200;
 }
 .unlist{
     gap: 35px;
+    font-size: 1.7rem;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 4px 8px;
     border-radius: 2.43rem;
+    /* text-align: center; */
+    /* align-items: center; */
 }
 .navber{
     justify-content: space-between;
     align-items: center;
-    margin: 30px 100px; 
+    margin: 30px 80px; 
 }
 .menu-icon{
     display: none;
 }
 .items-1{
     background-color:  rgb(230, 83, 60);
-    padding: 0.18rem 0.8rem;
-    border-radius: 40px;
+    font-size: 14px;
+    padding: 5px 25px;
+    border-radius: 25px;
 }
 .banner{
     margin: 80px 130px 30px 100px;
@@ -108,16 +113,22 @@ header{
     display: none;
 }
 .card-2{
-    gap: 15px;
     height: 80px;
     width: 150px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-sizing: border-box;
     border-radius: 10px;
     background: rgba(48, 48, 48, 0.54);
-    padding: 10px;
     margin: -370px 0px -370px 180px;
+
 }
+.card-2>H1{
+    font-size: 30px;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 .section-1{
     margin: 80px 100px 30px 180px;
     /* padding-top: 50px; */
@@ -230,7 +241,7 @@ header{
     margin: 20px;
 }
 .bmi{
-   margin: 30px 50px;
+   margin: 30px 60px;
     background-color: rgba(255, 255, 255, 0.1);
     justify-content: space-between;
     border-radius: 18px;
@@ -384,11 +395,11 @@ footer{
 }
 .footertitle{
     width: 30%;
-    padding: 130px 2px;
+    padding: 90px 2px;
 }
 .footertitle>h1{
     color: rgb(230, 83, 60);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     margin-bottom: 20px;
     position: static;
@@ -409,7 +420,7 @@ footer{
     font-weight: 400;
 }
 .hr{
-    margin: 0 70px;
+    margin: 15px 70px;
 }
 .copyright{
     text-align: center;
@@ -425,6 +436,9 @@ footer{
     }
     .menu-icon{
         display: flex;
+    }
+    .band-name{
+        font-size: 30px;
     }
     .navber{
         margin: 0px;
@@ -465,15 +479,21 @@ footer{
     }
     .section-1{
         margin: 0px;
-        padding-top: 550px;
+        padding-top: 450px;
     }
     .sec-1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .titledes{
+        margin: 0;
+    }
     .sec-1pg{
         align-items: center;
         margin: 0 auto;
+    }
+    .sectionimg{
+        margin-top: 10px;
     }
     .section-2{
         margin: 10px;
